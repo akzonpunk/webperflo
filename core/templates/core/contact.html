@@ -1,0 +1,26 @@
+  {% extends "core/base.html" %}
+  {% load static %}
+  {% block titulo %} Contacto {% endblock %}
+  {% block bgimagen %}{% static 'core/img/flores.jpg' %}{% endblock %}
+  
+  {% block header %}
+    <h1>Contacto</h1>
+    <span class="subheading">Asesoría</span>
+  {% endblock header %}
+  {% block content %}
+
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>te damos un mejor estilo de decoracion, conforme a lo que pidas y nos preocupamos por cada detalle de entrega al que puedas asombrar con una cantidad y diversidad de flores</p>
+          <br>
+          <p><b>Teléfono:</b> +09 876 543 210</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    {% endblock content %}  

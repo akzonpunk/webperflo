@@ -1,0 +1,28 @@
+  {% extends "core/base.html" %}
+  {% load static %}
+  {% block titulo %} Acerca de... {% endblock %}
+  {% block bgimagen %}{% static 'core/img/flores.jpg' %}{% endblock %}
+  
+  {% block header %}
+    <h1>Acerca de</h1>
+    <span class="subheading">Descripcion</span>
+  {% endblock header %}
+
+  {% block content %}
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">   
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+          <img class="img-fluid avatar" src="{% static 'core/img/rouse-black.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+          <h2 class="section-heading">Rouses Black</h2>   
+          <p>Esta planta de un aspecto agradeble y de un exsuberante fragancia </p>
+          <p> Tiene una fragancia aromatica muy dulce, crece en los alpes muy altos de los bosques tropicales de la amazonas y es confundida ususalmente con las orquideas, tiene distintos tipos de color ...</p>
+        </div>
+      </div>  
+    </div>
+
+    <hr>
+
+  {% endblock content %}  
